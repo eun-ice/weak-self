@@ -1,0 +1,11 @@
+[package]
+name = "weak-self"
+version = "1.0.0"
+authors = ["Crown Software GmbH"]
+description = "WeakSelf is simple way to have a Weak pointer to yourself"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/eun-ice/weak-self"
+edition = "2018"
+
+[features]
+
