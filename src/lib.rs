@@ -89,7 +89,7 @@ impl<T: ?Sized> WeakSelf<T> {
 
     /// Initialize the WeakSelf<T> with an Arc.
     ///
-    /// Note: content must point be the only existing Arc, otherwise this method will panig
+    /// Note: content must point be the only existing Arc, otherwise this method will panic
     pub fn init(&self, content: &Arc<T>) {
         if Arc::strong_count(content) != 1 || Arc::weak_count(content) != 0 {
             panic!("Exclusive access to Arc<T> is required while initializing WeakSelf<T>");
