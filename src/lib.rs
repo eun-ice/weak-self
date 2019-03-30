@@ -64,7 +64,7 @@ use std::sync::{Arc, Weak};
 ///
 ///```toml
 ///[dependencies]
-///weakself = "1.0.0"
+///weakself = "1.0.1"
 ///```
 ///
 ///

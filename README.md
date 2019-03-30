@@ -65,7 +65,7 @@ To use WeakSelf, add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-weakself = "1.0.0"
+weakself = "1.0.1"
 ```
 
 
