@@ -42,7 +42,7 @@ impl Foo {
         let foo = Arc::new(Foo{
             weak_self: WeakSelf::new()
         });
-        foo.me.init(&foo);
+        foo.weak_self.init(&foo);
         foo
     }
     
