@@ -5,7 +5,7 @@ authors = ["Crown Software GmbH"]
 description = "WeakSelf is simple way to have a Weak pointer to yourself"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/eun-ice/weak-self"
-edition = "2018"
+edition = "2021"
 
 [features]
 
